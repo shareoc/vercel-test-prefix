@@ -15,7 +15,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^5.7.0-next.1",
+    "gatsby": "next",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
