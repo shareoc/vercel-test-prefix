@@ -13,7 +13,6 @@
     "build": "gatsby build --prefix-paths",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "vercel-build": "yarn run build && yarn run postbuild",
     "postbuild": "./postbuild.sh"
   },
   "dependencies": {
