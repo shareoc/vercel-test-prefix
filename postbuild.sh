@@ -30,6 +30,8 @@ function cleanup {
 trap cleanup EXIT
 
 # ================================================================ #
+echo "ls to se whats going on here"
+ls
 
 echo "Move files from public/ to $WORK_DIR"
 mv public/prefix/* "$WORK_DIR"
