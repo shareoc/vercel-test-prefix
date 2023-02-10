@@ -31,7 +31,10 @@ trap cleanup EXIT
 
 # ================================================================ #
 echo "ls to se whats going on here"
-ls
+ls -a
+
+echo "pwd"
+pwd
 
 echo "Move files from public/ to $WORK_DIR"
 mv public/prefix/* "$WORK_DIR"
