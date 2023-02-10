@@ -12,8 +12,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build --prefix-paths",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "postbuild": "./postbuild.sh"
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "gatsby": "4.23.0",
