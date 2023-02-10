@@ -30,8 +30,7 @@ function cleanup {
 trap cleanup EXIT
 
 # ================================================================ #
-echo "ls to se whats going on here"
-ls -a
+
 
 echo "pwd"
 pwd
